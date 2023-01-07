@@ -1,6 +1,8 @@
 *{
     margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
+    
 }
 
 /* Header style */
@@ -45,6 +47,10 @@
     border: 0;
     border-radius: 5px;
 }
+.btn-primary:hover{
+    color: rgba(0, 0, 0, 0.89);
+    background: rgba(135, 207, 235, 0.767);
+}
 
 /* Main section style */
 
@@ -52,7 +58,7 @@
     display: flex;
     margin-bottom: 100px;
 }
-img{
+.photo{
     height: 600px;
     margin-left: 150px;
 }
@@ -66,7 +72,7 @@ ul li:before {
     margin-right: 10px;
   }
 .section-2{
-    padding: 200px 150px 300pc 100px;
+    padding: 200px 150px 100px 100px;
 }
 .section-2-title{
     font-weight: 600;
@@ -77,4 +83,126 @@ ul li:before {
     font-weight: 500;
     font-size: 17px;
     margin-bottom: 20px;
+}
+
+/* Sub section style */
+
+.sub-section-head{
+    text-align: center;
+}
+.sub-section-title{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    
+}
+.sub-section-container{
+    height: 200px;
+    width: 100px;
+    margin-right: 200px;
+     
+}
+.container-title{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+}
+.container-description{
+    
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* Contact container style */
+
+.contact-container{
+    background: url(images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+.contact{
+    padding-top: 60px;
+    padding-left: 50px;
+} 
+.contact-title{
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    margin-right: 600px;
+    margin-bottom: 25px;
+}
+
+/* Footer section style */
+
+.footer{
+    display: flex;
+    background: #151414;
+    height: 550px;
+}
+.footer-section{
+    color: #fff;
+}
+.footer-info{
+    margin-bottom: 30px;
+}
+.footer-title{
+    font-weight: 600;
+    font-size: 40px;
+    padding: 150px 0 20px 150px;
+    
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 300px 20px 150px;
+}
+.footer-icons{
+    padding-left: 150px;
+}
+img{
+    padding-right: 17px;
+}
+
+/* Form style */
+
+.form-section{
+    padding: 150px 200px 200px 0;
+}
+.info-title{
+    color: #fff;
+    font-weight: 600px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+.btn-secondery{
+    font-weight: 400px;
+    font-size: 15px;
+    color: #fff;
+    background: #005FAC;
+    height: 55px;
+    width: 100px;
+    border: 0;
+    border-radius: 5px;
+}
+.btn-secondery:hover{
+    color: #005FAC;
+    background: #fff;
 }
