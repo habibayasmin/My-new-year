@@ -121,14 +121,55 @@ ul li:before {
     color: #737272;
 }
 
+/* Extra section style */
+.extra-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.optional{
+    margin-left: 150px;
+    padding-right: 35px;
+}
+.optional-title{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+.optional-description{
+    font-weight: 500;
+    font-size: 17px; 
+    margin-bottom: 20x;
+}
+.photo-2{
+    height: 300px;
+    width: auto;
+    margin-right: 50px;
+}
+ol{
+    margin-top: 20px;
+}
+ol li{
+    list-style: none;
+    padding-bottom: 7px;    
+}
+ol li:before {
+    content: '✓';
+    color: green;
+    margin-right: 10px;
+  }
+
+
 /* Contact container style */
 
 .contact-container{
-    background: url(images/watch.png);
+    background: linear-gradient(to left,rgba(245, 66, 245, 0.384),
+    rgba(8, 67, 156, 0.952)),
+    url(images/watch.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    margin-bottom: 100px;
-    margin-left: 150px;
+    margin: 0 50px 100px 150px;
 }
 .contact{
     padding-top: 60px;
